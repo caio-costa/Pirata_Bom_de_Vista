@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public static class Helper{
 
@@ -7,7 +8,7 @@ public static class Helper{
         {
             if (angle < -360)
                 angle += 360;
-            if (angle > -360)
+            if (angle > 360)
                 angle -= 360;
         } while (angle < -360 || angle > 360);
 
