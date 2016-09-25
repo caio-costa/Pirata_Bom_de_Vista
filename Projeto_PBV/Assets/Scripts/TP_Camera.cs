@@ -2,8 +2,11 @@
 using System.Collections;
 
 public class TP_Camera : MonoBehaviour {
+
     public static TP_Camera Instance;
+
     public Transform TargetLookAt;
+
     public float Distance = 5f;
     public float DistanceMin = 3f;
     public float DistanceMax = 10f;
@@ -18,9 +21,9 @@ public class TP_Camera : MonoBehaviour {
 
     private float mouseX = 0f;
     private float mouseY = 0f;
-    private float velX = 0;
-    private float velY = 0;
-    private float velZ = 0;
+    private float velX = 0f;
+    private float velY = 0f;
+    private float velZ = 0f;
     private float velDistance = 0f;
     private float startDistance = 0f;
     private Vector3 position = Vector3.zero;
@@ -38,17 +41,27 @@ public class TP_Camera : MonoBehaviour {
 	}
 	
 	void LateUpdate() {
-        if(TargetLookAt == null){
+        if(TargetLookAt == null)
             return;
-        }
+
+            HandlePlayerInput();
+
+            CalculateDesiredPosition();
+
+            UpdatePosition();
+
 	}
 
     void HandlePlayerInput(){
         var deadZone = 0.01f;
 
         if (Input.GetMouseButton(1)){
+	    	Debug.Log("Pressionado");
             mouseX += Input.GetAxis("Mouse X") * X_MouseSensitivity;
             mouseY -= Input.GetAxis("Mouse Y") * Y_MouseSensitivity;
+            Debug.Log(mouseX);
+            Debug.Log(mouseY);
+
         }
 
         // Limitar a rotação do mouseY
@@ -56,9 +69,7 @@ public class TP_Camera : MonoBehaviour {
 
 
         if(Input.GetAxis("Mouse ScrollWheel") < -deadZone || Input.GetAxis("Mouse ScrollWheel") > deadZone){
-            desiredDistance = Mathf.Clamp(Distance - Input.GetAxis("Mouse ScrollWheel") * MouseWheelSensitivity, 
-                DistanceMin, 
-                DistanceMax);
+            desiredDistance = Mathf.Clamp(Distance - Input.GetAxis("Mouse ScrollWheel") * MouseWheelSensitivity, DistanceMin, DistanceMax);
         }
     }
 
@@ -83,6 +94,8 @@ public class TP_Camera : MonoBehaviour {
         var posY = Mathf.SmoothDamp(position.y, desiredPosition.y, ref velY, Y_Smooth);
         var posZ = Mathf.SmoothDamp(position.z, desiredPosition.z, ref velZ, X_Smooth);
         position = new Vector3(posX, posY, posZ);
+
+        transform.position = position;
 
         transform.LookAt(TargetLookAt);
 
@@ -117,7 +130,9 @@ public class TP_Camera : MonoBehaviour {
 
         if (targetLookAt == null){
             targetLookAt = new GameObject("targetLookAt");
+            Debug.Log("targetLookAt criado");
             targetLookAt.transform.position = Vector3.zero;
+            Debug.Log("Passei");
         }
 
         myCamera.TargetLookAt = targetLookAt.transform;
