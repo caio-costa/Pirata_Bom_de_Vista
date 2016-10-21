@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LegendaCollections>
+	<Textos>
+		<ObjetoTexto indice="0">
+			<texto>CAPITÃO: Marujos! Quem diria que uma vila tão pequena teria tanto ouro? HAHAHAHAHAH</texto>
+			<duracao>2.5</duracao>
+		</ObjetoTexto>
+		<ObjetoTexto indice = "1">
+			<texto>CAPITÃO: Levem este ouro para o baú. E não deixem cair uma única moeda, hein?</texto>
+			<duracao>1.5</duracao>
+		</ObjetoTexto>
+	</Textos>
+</LegendaCollections>
