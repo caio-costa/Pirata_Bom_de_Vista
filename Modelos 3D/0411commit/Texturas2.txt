@@ -1,0 +1,23 @@
+Ilha: Igual a outra
+-Teto da casa e chao: woodfloor
+-Paredes da casa: wood
+-Porta e janelas: woodrough
+
+-Pagina do livro: bookpage
+-lateral do livro: bookside
+-capa do livro: bookcover
+
+-caldeirão: ironseam
+
+-mesa: woodtable
+
+
+Joris 
+-Olho: eye2
+-Pele: skin1
+-Chapeu: leather2
+-Perna: woodfloor
+-Garra: metal
+-Calça: jeans 
+-Colete: couro
+-camisera: tshirt (Se vc conseguir mudar essa cor aqui, pra ficar diferente do resto, usar uma que SÓ ELE use e tals, pq eu gostei da textura daqui. Se não der a gente muda essa aqui)

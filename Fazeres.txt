@@ -1,0 +1,23 @@
+- Arrumar as roupas
+- Texturizar o personagem
+- Fazer ilha feiticeiro
+- Fazer ilha centopenta
+- Fazer o feiticeiro
+- Fazer a centopenta
+- Fazer marujo inimigo
+- Fazer um menu
+- Fazer uma hud
+- Animações basicas
+- Fazer modelo de colírio
+
+
+
+- Fazer movimentação básica de barco
+- Arrumar colisores na ilha
+- Fazer cutscenes com legendas e áudios
+- Fazer efeito glaucoma e colírio
+- Fazer inteligência artificial de centopenta
+
+
+- Sonoplastia ambiente/habilidades
+- Sonorização das falas

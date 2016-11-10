@@ -1,0 +1,15 @@
+ilha centro: deadgrass2
+ilha areia: snd1
+
+gosma: Leo tem uma (acho)
+
+Arvore e pedras: igual as outras.
+
+centopenta: 
+olho: eyecartoon
+corpo em cima:plush3
+corpo em baixo:plush1
+pés:plush2
+nariz:plush2
+monoculo:testegold
+

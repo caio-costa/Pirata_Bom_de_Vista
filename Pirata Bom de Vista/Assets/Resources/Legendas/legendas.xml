@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LegendaCollections>
+	<Textos>
+		<ObjetoTexto indice="0">
+			<texto>JÓRIS: Boa marujos! Quem diria que uma vila tão pequena teria tanto ouro? HAHAHA</texto>
+			<duracao>0</duracao>
+		</ObjetoTexto>
+		<ObjetoTexto indice = "1 ">
+			<texto>JÓRIS: Levem este ouro para o cofre. Mas cuidado para não perderem nenhuma destas moedas, hein?</texto>
+			<duracao>0</duracao>
+		</ObjetoTexto>
+    <ObjetoTexto indice="2">
+			<texto>JÓRIS: Todos para o bar, marujos! Vamos comemorar</texto>
+			<duracao>0</duracao>
+		</ObjetoTexto>
+    <ObjetoTexto indice="3">
+      <texto>MARUJO: Desculpa Capitão! Não vi que o senhor estava aí.</texto>
+      <duracao>0</duracao>
+    </ObjetoTexto>
+    <ObjetoTexto indice="4">
+			<texto>JÓRIS: Sem problemas, marujo.</texto>
+			<duracao>0</duracao>
+		</ObjetoTexto>
+    <ObjetoTexto indice="5">
+      <texto>MARUJO: Eu te sujei aqui né? Pode deixar que eu te limpo!</texto>
+      <duracao>0</duracao>
+    </ObjetoTexto>
+    <ObjetoTexto indice="6">
+			<texto>JÓRIS: Grrrrrr... Para com isso marujo, você está me sujando!</texto>
+			<duracao>0</duracao>
+    </ObjetoTexto>  
+		<ObjetoTexto indice="6">
+			<texto>JÓRIS: Marujada! Amarrem esse idiota e levem-no para o barco. Eu vou ter que ensinar uma lição para ele!</texto>
+			<duracao>0</duracao>
+		</ObjetoTexto>
+    <ObjetoTexto indice="7">
+      <texto>JÓRIS: Marujada! Venham aqui para o barco e levem esse idiota lá para dentro com vocês! Eu vou dar uma lição nele.</texto>
+      <duracao>0</duracao>
+    </ObjetoTexto>
+	</Textos>
+</LegendaCollections>

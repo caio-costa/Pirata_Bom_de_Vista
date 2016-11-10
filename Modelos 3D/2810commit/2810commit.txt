@@ -1,0 +1,20 @@
+Quanto ao banco:
+Woodtable no banco em si
+Wooddoor na porta da frente e nas folhas da janela
+Woodfloor na tabua do teto, do chão e pilares.
+black nas partes internas
+
+Na moeda em cima:
+woodfloor no $
+madeiramoeda no circulo
+(Tem um material "dentro" das janelas, se vc conseguir fazer um vidro meio fosco, tem o preto dentro pra simular que ta escuro (black.jpg))
+
+Quanto ao marujo:
+Como os outros, padrão
+Na espada usei irontxt na lamina, leather2 na parte em volta e a testegold pra proteção da mão.
+
+Na Moeda.fbx:
+testegold pra tudo, só mudei os tamanhos nos tiles e deu um resultado bem legal
+
+
+
